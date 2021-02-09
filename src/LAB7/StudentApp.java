@@ -3,7 +3,7 @@ package LAB7;
 public class StudentApp {
     public static void main(String[] args) {
         //create object of student class
-        Student std1 = new Student();
+        Student std1 = new Student();//==> call constructor
 
         std1.introducs();
 
