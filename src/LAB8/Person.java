@@ -73,4 +73,9 @@ public class Person {
                 ", tel='" + tel + '\'' +
                 '}';
     }
+
+    public void introduce(){
+        System.out.println("my name is +" + name);
+        System.out.println("I am "+age+" year ole.");
+    }
 }
